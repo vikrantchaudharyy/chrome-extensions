@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "Certificate Inspector",
+  "version": "1.0",
+  "description": "Inspect PEM-encoded X.509 certificates (with \\n or newlines)",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["clipboardWrite", "clipboardRead"]
+}
